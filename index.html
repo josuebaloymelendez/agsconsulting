@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Estructura</title>
+	<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">  
+	<link rel="stylesheet" href="https://necolas.github.io/normalize.css/4.1.1/normalize.css">
+	<style>
+		body {
+			font-family: 'Merriweather', serif;
+			font-size: 120%;
+		}
+		header {
+			text-align: center;
+		}
+		main {
+			margin: 0 auto;
+			max-width: 1000px;
+		}
+		ul {
+			list-style: none;
+			padding: 0;
+			background-color: beige;
+		}
+		ul ul {
+			padding: 2em 0;
+		}
+		ul ul ul {
+			padding: 1em;
+			background-color: white;
+		}
+		ul div {
+			margin: 0 2em;
+		}
+		ul > li {
+			align-items: center;
+			margin: 1em 0;
+		}
+		ul ul li {
+			align-items: center;
+			margin: 0 0 1em;
+		}
+		ul ul li:last-child {
+			margin: 0;
+		}
+		li {
+			display: flex;
+			background-color: white;
+		}
+		h1, h2, h3, h4, h5, h6 {
+			margin: 0;
+		}
+		h3, h4 {
+			margin: 0;
+			padding: 1em;
+			color: white;
+			background-color: #025889;
+		}
+		h4 {
+			background-color: #5A8902;
+		}
+		p {
+			margin: 0;
+			padding: 1em;
+		}
+		em {
+			display: block;
+			padding: 0.5em;
+			color: #8a8a8a;
+			background-color: #F2F0F0B3;
+			font-size: 90%;
+			font-style: normal;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>Proyectos web</h1>
+	</header>
+	<main role="main">
+		<article>				
+			<header><h2>Estructura</h2></header>
+			<section>
+				<ul>
+					<li>
+						<h3>Home</h3>
+						<ul>
+							<div>
+								<li>
+									<h4>Menu</h4>
+									<ul>
+										<li>Inicio</li>
+										<li>Servicios</li>
+										<li>Portafolio</li>
+										<li>Casos de éxito</li>
+										<li>Noticias</li>
+										<li>Nosotros</li>
+										<li>Contacto</li>
+									</ul>
+								</li>
+								<li>
+									<h4>Banner Principal</h4>
+									<p>Mínimo 2 imágenes con sus respectiva información</p>
+								</li>
+
+								<li>
+									<h4>Servicios</h4>
+									<p>Un listado de todos los servicios ofrecidos y especificar los 3 principales para el home. <em>Incluye un pequeño texto introductorio</em></em></p>
+								</li>
+
+								<li>
+									<h4>Noticias</h4>
+									<p>Mínimo 5 noticias para incluir en el sitio. <em>El contenido bien nutrido y con su respectiva imagen.</em></p>
+								</li>
+
+								<li>
+									<h4>Logos</h4>
+									<p>Empresas en la cuales trabajaron anteriormente y ofrecieron sus servicios</p>
+								</li>
+
+								<li>
+									<h4>Contacto</h4>
+									<p>Toda la información necesaria para poder contactarlos. <em>Incluir redes sociales</em></p>
+								</li>
+							</div>
+						</ul>
+					</li>
+					<li>
+						<h3>Servicios</h3>
+						<p>Un listado de todos los servicios ofrecidos. <em>Incluir imágenes</em></em></p>
+					</li>
+
+					<li>
+						<h3>Casos de éxito</h3>
+						<p>Clientes que han tenido la oportunidad de trabajar. <em>Incluir imágenes</em></p>
+					</li>
+
+					<li>
+						<h3>Noticias</h3>
+						<p>Mínimo 5 noticias para incluir en el sitio. <em>El contenido bien nutrido y con su respectiva imagen.</em></p>
+					</li>
+					<li>
+						<h3>Nosotros</h3>
+						<p>Misión, Visión, Historia, Equipo. <em>Incluir imágenes</em></p>
+					</li>
+					<li>
+						<h3>Contacto</h3>
+						<p>Toda la información necesaria para poder contactarlos. <em>Incluir redes sociales</em></p>
+					</li>
+				</ul>
+			</section>
+		</article>
+	</main>
+</body>
+</html>
